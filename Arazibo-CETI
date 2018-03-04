@@ -20,9 +20,9 @@ contract owned {
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }
 
 contract CetiToken {
-    string public constant _myTokeName = 'Arazibo Token';//change here
+    string public constant _myTokeName = 'AreciboCoin';//change here
     string public constant _mySymbol = 'CETI';//change here
-    uint public constant _myinitialSupply = 10000000;//leave it
+    uint public constant _myinitialSupply = 100000000;//leave it
     uint8 public constant _myDecimal = 18;//leave it
     // Public variables of the token
     string public name;
